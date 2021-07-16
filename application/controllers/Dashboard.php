@@ -55,4 +55,11 @@ class Dashboard extends CI_Controller
 
       redirect('dashboard');
    }
+
+   public function pengajuan()
+   {
+      $this->load->view('dashboard/header');
+      $this->load->view('pegawai/pengajuan');
+      $this->load->view('dashboard/footer');
+   }
 }

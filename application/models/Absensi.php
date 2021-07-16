@@ -13,4 +13,8 @@ class Absensi extends CI_model
    {
       $this->db->insert('absensi', $datacheckout);
    }
+   public function pengajuan($data)
+   {
+      $this->db->insert('absen', $data);
+   }
 }
