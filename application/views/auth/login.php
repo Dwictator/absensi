@@ -36,7 +36,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div>
 
 				<div class="text-center" style="margin-top: 15px">
-					<a class="text-decoration-none" href="">Forgot Password</a>
+					<a class="text-decoration-none" href="#">Forgot Password</a>
+				</div>
+				<div class="text-center" style="margin-top: 15px">
+					<a class="text-decoration-none" href="<?php echo base_url('auth/registration') ?>">Registration</a>
 				</div>
 
 			</div>

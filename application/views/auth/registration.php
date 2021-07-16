@@ -100,7 +100,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
                $.ajax({
 
-                  url: "<?php echo base_url() ?>auth/register",
+                  url: "<?php echo base_url('auth/register') ?>",
                   type: "POST",
                   data: {
                      "namalengkap": namalengkap,

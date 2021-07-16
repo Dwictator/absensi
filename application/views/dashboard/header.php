@@ -23,7 +23,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
          <div class="sidebar-heading border-bottom bg-light">apptend.</div>
          <div class="list-group list-group-flush">
             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="<?= base_url('dashboard') ?>">Dashboard</a>
-            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Attendance Log</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="<?= base_url('dashboard/log') ?>">Attendance Log</a>
             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Request Time Off</a>
             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="<?= base_url('dashboard/announcement') ?>">Notification</a>
 
