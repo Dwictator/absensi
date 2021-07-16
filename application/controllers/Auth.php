@@ -66,4 +66,10 @@ class Auth extends CI_Controller
 			echo "error";
 		}
 	}
+
+	public function loginadmin()
+	{
+		$email = $this->input->post('email');
+		$password = $this->input->post('password');
+	}
 }
